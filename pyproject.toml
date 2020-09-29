@@ -53,7 +53,7 @@ wemake = "wemake_python_styleguide.formatter:WemakeFormatter"
 [tool.poetry.dependencies]
 python = "^3.6"
 
-flake8 = "^3.7"
+flake8 = {git = "https://github.com/ModularHistory/flake8.git"}
 attrs = "*"
 typing_extensions = "^3.6"
 astor = "^0.8"
